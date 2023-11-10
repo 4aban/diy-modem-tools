@@ -4,7 +4,7 @@
 # version : v1.0.0
 # Author  : Lutfa Ilham
 
-DEVICE=/dev/ttyACM2
+DEVICE=/dev/ttyACM0
 AT_COMMAND="${1}"
 
 while getopts d: flag; do
