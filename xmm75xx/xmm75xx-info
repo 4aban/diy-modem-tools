@@ -4,7 +4,7 @@
 # version : v1.1.1
 # Author  : Lutfa Ilham
 
-DEVICE="/dev/ttyACM0"
+DEVICE="/dev/ttyACM2"
 REFRESH_RATE=3
 
 while getopts i:d: flag; do
